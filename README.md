@@ -38,7 +38,7 @@ Inputs: 1 1 → Output: ~0.00 (Target: 0)
 
 ### Compilation
 ```bash
-g++ -o xor_nn xor_nn.cpp
+g++ -o xor_nn main.cpp
 ```
 
 ### Run
@@ -51,8 +51,8 @@ g++ -o xor_nn xor_nn.cpp
 ## File Structure
 ```
 .
-├── xor_nn.cpp   # Source code
-├── README.md    # Project documentation
+├── main.cpp           # Driver code
+├── neural_network.h   # The actual neural network
 ```
 
 ---
